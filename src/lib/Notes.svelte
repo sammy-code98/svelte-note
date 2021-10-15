@@ -9,7 +9,7 @@
 
 //   here comes some props
 
-export let id : number
+// export let id : number
 export let title: string
 export let  content : string
 export let date : string
