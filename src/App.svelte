@@ -7,14 +7,5 @@
 <Home />
 
 <style lang="scss">
-  :root {
-    font-family: "Indie Flower", cursive;
-    height: 100%;
-  }
-  :global(body) {
-    // this applies to the html body
-    margin: 0;
-    height: 100%;
-    background-color: #fbfbfb;
-  }
+
 </style>
