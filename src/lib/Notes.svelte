@@ -7,12 +7,12 @@
 
   //   here comes some props
 
-  export let id: number;
-  export let title: string;
-  export let content: string;
-  export let date: string;
-  export let isFav: boolean;
-  export let tags: string[];
+  export let id: number
+  export let title: string
+  export let content: string
+  export let date: string
+  export let isFav: boolean
+  export let tags: string[]
 
   // declare methods
 
@@ -24,22 +24,22 @@
    * @param {String} content
    */
 
-//   const contentTrim = (content: string) => {
-//     if (content.length > 100) {
-//       return `${content.substring(0, 100)}....`;
-//     }
-//     return content;
-//   };
+  const contentTrim = (content: string) => {
+    if (content.length > 100) {
+      return `${content.substring(0, 100)}....`;
+    }
+    return content;
+  };
 </script>
 
 <div class="note-card">
   <div class="title">{title}</div>
-  <!-- <div class="preview">{contentTrim(content)}</div> -->
+  <div class="preview">{contentTrim(content)}</div>
 
   <div class="tag-wrapper">
-    <!-- {#each tags as tag (tag)} -->
-      <!-- <div class="tag">{tag}</div> -->
-    <!-- {/each} -->
+    {#each tags as tag (tag)}
+      <div class="tag">{tag}</div>
+    {/each}
   </div>
   <div class="card-footer">
     <div class="date">{formatDate(date)}</div>
