@@ -32,7 +32,7 @@
   };
 </script>
 
-<div class="note-card" on:click="">
+<div class="note-card" on:click>
   <div class="title">{title}</div>
   <div class="preview">{contentTrim(content)}</div>
 
