@@ -32,7 +32,9 @@
 
   @media screen and (max-width: 480px) {
     .general-header{
-      width: 80%;
+      width: 100%;
+      top: 0;
+      position: sticky;
     }
   }
 </style>

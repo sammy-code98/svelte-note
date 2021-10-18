@@ -183,4 +183,9 @@ onMount(()=>{
       height: fit-content;
       min-height: 30px;
     }
+    @media screen and (max-width: 480px) {
+      .modal-body{
+        width: 300px;
+      }
+    }
   </style>

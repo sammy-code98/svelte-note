@@ -105,7 +105,7 @@
   }
   @media screen and (max-width: 480px) {
     .note-card{
-      width: 200px;
+      width: 250px;
       margin: 20px;
 
       

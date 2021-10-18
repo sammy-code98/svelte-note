@@ -45,4 +45,10 @@
       cursor: pointer;
     }
   }
+  @media screen and (max-width: 480px) {
+    .modal-overlay{
+      width: 100vw;
+      height: 100vh;
+    }
+  }
 </style>
