@@ -29,4 +29,10 @@
   .title{
     font-weight: bold;
   }
+
+  @media screen and (max-width: 480px) {
+    .general-header{
+      width: 80%;
+    }
+  }
 </style>

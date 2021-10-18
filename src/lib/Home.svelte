@@ -225,4 +225,9 @@
       display: flex;
     }
   }
+  @media screen and (max-width: 480px) {
+    .note-card-container{
+      display:block;
+    }
+  }
 </style>

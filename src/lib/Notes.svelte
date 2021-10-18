@@ -103,4 +103,22 @@
   .fav-icon {
     cursor: pointer;
   }
+  @media screen and (max-width: 480px) {
+    .note-card{
+      width: 200px;
+      margin: 20px;
+
+      
+    }
+    .preview{
+      font-size: 10px;
+    }
+    .title{
+      margin-bottom: 5px;
+    }
+    .card-footer{
+      display: inline-flex;
+      margin: 8px;
+    }
+  }
 </style>
